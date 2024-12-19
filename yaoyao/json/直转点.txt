@@ -1,0 +1,19 @@
+﻿
+#本地1
+./mv/tv.txt
+
+#本地2
+./mv/RTV.txt
+
+#本地3
+./mv/18 2023.txt
+
+#本地4
+./mv/tv3.txt
+
+#本地5
+./mv/tvlist.txt
+
+#本地6
+./mv/XstR.txt
+
