@@ -1,6 +1,14 @@
 {
     "lives": [
         {
+            "name": "沧海笑1",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png"
+        },
+        {
             "name": "沧海笑",
             "type": 0,
             "url": "./tv/mtv.txt",
@@ -50,20 +58,18 @@
             "api": "./api/drpy2.min.js",
             "ext": "./JS/百忙无果.js"
         },
-        
         {
-      "key": "欢视",
-      "name": "⛳欢视",
-      "type": 3,
-      "api": "csp_AppTT",
-      "jar": "./jar/tvbox.txt",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
-    },
-        
+            "key": "欢视",
+            "name": "⛳欢视",
+            "type": 3,
+            "api": "csp_AppTT",
+            "jar": "./jar/tvbox.txt",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+        },
         {
             "key": "热播",
             "name": "🌼热播┃App",
@@ -76,22 +82,29 @@
             "filterable": 1,
             "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
         },
-        
-        {"key":"文采","name":"💮文采┃秒播","type":3,"api":"csp_Jpys","jar": "./jar/fan.txt","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-        
         {
-      "key": "萌米",
-      "name": "🐥萌米",
-      "type": 3,
-      "api": "csp_AppTT",
-      "jar": "./jar/tvbox.txt",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-    },
-        
+            "key": "文采",
+            "name": "💮文采┃秒播",
+            "type": 3,
+            "api": "csp_Jpys",
+            "jar": "./jar/fan.txt",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "萌米",
+            "name": "🐥萌米",
+            "type": 3,
+            "api": "csp_AppTT",
+            "jar": "./jar/tvbox.txt",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+        },
         {
             "key": "直播转点播1",
             "name": "⛳直播.教学T4 ",
@@ -162,29 +175,37 @@
             "order_num": 0,
             "ext": "./JS/KTV歌厅[听].js"
         },
-       
-       {
-      "key": "网盘集合",
-      "name": "网盘集合|4K",
-      "type": 3,
-      "api": "csp_网盘集合",
-      "jar": "./jar/custom_spider.jar",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "commonConfig": "./json/peizhi.json",
-        "share": "./json/网盘集合.json"
-      }
-    },
-       
-       {"key":"PushShare","name":"🐥我的资源分享","type":3, "api":"csp_PushShare","jar": "./jar/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./token/tokenm.json$$$./token/pushshare.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-        
+        {
+            "key": "网盘集合",
+            "name": "网盘集合|4K",
+            "type": 3,
+            "api": "csp_网盘集合",
+            "jar": "./jar/custom_spider.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "share": "./json/网盘集合.json"
+            }
+        },
+        {
+            "key": "PushShare",
+            "name": "🐥我的资源分享",
+            "type": 3,
+            "api": "csp_PushShare",
+            "jar": "./jar/pg.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./token/tokenm.json$$$./token/pushshare.txt$$$db$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
         {
             "key": "我的阿里",
             "name": "🔥我的｜阿里",
@@ -309,416 +330,395 @@
             "changeable": 0,
             "ext": "./json/小雅.json"
         },
-        
         {
-      "key": "易搜",
-      "name": "🌿易搜|网盘搜索",
-      "type": 3,
-      "api": "csp_YiSo",
-      "jar": "./jar/pg.jar",
-      "timeout": 60,
-      "ext": "./token/yiso.txt",
-      "style": {
-        "type": "list",
-        "ratio": 1.1
-      }
-    },
-    {
-      "key": "秒搜",
-      "name": "🌿秒搜|网盘搜索",
-      "type": 3,
-      "api": "csp_MiaoSou",
-      "jar": "./jar/pg.jar",
-      "timeout": 60,
-      "ext": "./token/tokenm.json",
-      "style": {
-        "type": "list",
-        "ratio": 1.1
-      }
-    },
-        
+            "key": "易搜",
+            "name": "🌿易搜|网盘搜索",
+            "type": 3,
+            "api": "csp_YiSo",
+            "jar": "./jar/pg.jar",
+            "timeout": 60,
+            "ext": "./token/yiso.txt",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
         {
-      "key": "混合盘",
-      "name": "🌿混合盘|网盘搜索",
-      "type": 3,
-      "api": "csp_HunHePan",
-      "jar": "./jar/pg.jar",
-      "timeout": 60,
-      "ext": "./token/tokenm.json",
-      "style": {
-        "type": "list",
-        "ratio": 1.1
-      }
-    },
-        
-        
+            "key": "秒搜",
+            "name": "🌿秒搜|网盘搜索",
+            "type": 3,
+            "api": "csp_MiaoSou",
+            "jar": "./jar/pg.jar",
+            "timeout": 60,
+            "ext": "./token/tokenm.json",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
         {
-      "key": "最大资源",
-      "name": "🟡最大",
-      "type": 1,
-      "api": "http://zuidazy.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "categories": [
-        
-        "有声动漫",
-        "女频恋爱",
-        "反转爽剧",
-        "古装仙侠",
-        "年代穿越",
-        "脑洞悬疑",
-        "现代都市"
-      ]
-    },
-        
+            "key": "混合盘",
+            "name": "🌿混合盘|网盘搜索",
+            "type": 3,
+            "api": "csp_HunHePan",
+            "jar": "./jar/pg.jar",
+            "timeout": 60,
+            "ext": "./token/tokenm.json",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
         {
-      "key": "✨影视大全✨",
-      "name": "✨影视大全✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/影视大全.json"
-    },
-        
-        
+            "key": "最大资源",
+            "name": "🟡最大",
+            "type": 1,
+            "api": "http://zuidazy.me/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "categories": [
+                "有声动漫",
+                "女频恋爱",
+                "反转爽剧",
+                "古装仙侠",
+                "年代穿越",
+                "脑洞悬疑",
+                "现代都市"
+            ]
+        },
         {
-      "key": "✨量子影视✨",
-      "name": "✨量子短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/量子短剧.json"
-    },
+            "key": "✨影视大全✨",
+            "name": "✨影视大全✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/影视大全.json"
+        },
         {
-      "key": "✨短剧大全✨",
-      "name": "✨短剧大全✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/短剧大全.json"
-    },
+            "key": "✨量子影视✨",
+            "name": "✨量子短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/量子短剧.json"
+        },
         {
-      "key": "✨老王影院✨",
-      "name": "✨老王短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/老王短剧.json"
-    },
-    {
-      "key": "✨胖虎影院✨",
-      "name": "✨胖虎短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/胖虎短剧.json"
-    },
-    {
-      "key": "✨奇优影院✨",
-      "name": "✨奇优短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/奇优短剧.json"
-    },
-        
-        
+            "key": "✨短剧大全✨",
+            "name": "✨短剧大全✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/短剧大全.json"
+        },
         {
-      "key": "✨DJW✨",
-      "name": "✨短剧x✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/短剧网.json"
-    },
-        
+            "key": "✨老王影院✨",
+            "name": "✨老王短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/老王短剧.json"
+        },
         {
-      "key": "✨飞飞短剧✨",
-      "name": "✨飞飞短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/飞飞短剧.json"
-    },
+            "key": "✨胖虎影院✨",
+            "name": "✨胖虎短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/胖虎短剧.json"
+        },
         {
-      "key": "✨免费电影网✨",
-      "name": "✨免费短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/免费短剧.json"
-    },
-        
+            "key": "✨奇优影院✨",
+            "name": "✨奇优短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/奇优短剧.json"
+        },
         {
-      "key": "✨妖狐短剧✨",
-      "name": "✨妖狐短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/妖狐短剧.json"
-    },
-    {
-      "key": "✨PTT短剧✨",
-      "name": "✨PTT短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/PTT短剧.json"
-    },
-    {
-      "key": "✨理理短剧✨",
-      "name": "✨理理短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/理理短剧.json"
-    },
-        
+            "key": "✨DJW✨",
+            "name": "✨短剧x✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/短剧网.json"
+        },
         {
-      "key": "✨七味短剧✨",
-      "name": "✨七味短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/七味短剧.json"
-    },
+            "key": "✨飞飞短剧✨",
+            "name": "✨飞飞短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/飞飞短剧.json"
+        },
         {
-      "key": "✨火车太堵短剧✨",
-      "name": "✨火车短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/sjc.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/火车太堵短剧.json"
-    },
-        
+            "key": "✨免费电影网✨",
+            "name": "✨免费短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/免费短剧.json"
+        },
         {
-      "key": "✨奈飞短剧✨",
-      "name": "✨奈飞短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/奈飞短剧.json"
-    },
-        
+            "key": "✨妖狐短剧✨",
+            "name": "✨妖狐短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/妖狐短剧.json"
+        },
         {
-      "key": "✨丽宫短剧✨",
-      "name": "✨丽宫短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/丽宫短剧.json"
-    },
-    {
-      "key": "✨NUU短剧✨",
-      "name": "✨NUU短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/NUU短剧.json"
-    },
-        
+            "key": "✨PTT短剧✨",
+            "name": "✨PTT短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/PTT短剧.json"
+        },
         {
-      "key": "✨可爱短剧✨",
-      "name": "✨可爱短剧✨",
-      "type": 3,
-      "jar": "./jar/sjc.jar",
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/可爱短剧.json"
-    },
-        
+            "key": "✨理理短剧✨",
+            "name": "✨理理短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/理理短剧.json"
+        },
         {
-      "key": "✨追剧网✨",
-      "name": "✨追剧短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/追剧短剧.json"
-    },
+            "key": "✨七味短剧✨",
+            "name": "✨七味短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/七味短剧.json"
+        },
         {
-      "key": "✨无敌短剧✨",
-      "name": "✨无敌短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/无敌短剧.json"
-    },
-    
+            "key": "✨火车太堵短剧✨",
+            "name": "✨火车短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/sjc.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/火车太堵短剧.json"
+        },
         {
-      "key": "大鱼短剧",
-      "name": "✨大鱼短剧✨",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://dayuya.com/index.php/vod/show/id/33.html",
-        "首页": "120",
-        "起始页": "1",
-        "数组": "/vod/detail/id/&&/div></div>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "text\">&&<",
-        "链接": "/index.php/vod/detail/id/+&&\"",
-        "线路数组": "data-dropdown&&</div>",
-        "线路标题": "✨+<span>&&</+【共+<small>&&</+集】",
-        "搜索模式": "1",
-        "搜索url": "/index.php/ajax/suggest?mid=1&wd={wd}&page={pg}&limit=30",
-        "搜索数组": "list",
-        "搜索标题": "name",
-        "搜索图片": "pic",
-        "搜索副标题": "en",
-        "搜索链接": "'/index.php/vod/detail/id/'+id+'.html'",
-        "简介": "✨沧海笑提醒您:【请不要相信视频中的广告，以免上当受骗!】",
-        "分类url": "https://dayuya.com/index.php/vod/show/id/{cateId}/page/{catePg}.html",
-        "分类": "虐恋$60#古装仙侠$41#逆袭$61#悬疑$62#神豪$63#重生$64#复仇$65#穿越$66#甜宠$67#强者$68#萌宝$69#其它$70#合集$71"
-      }
-    },
-    
+            "key": "✨奈飞短剧✨",
+            "name": "✨奈飞短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/奈飞短剧.json"
+        },
         {
-      "key": "好帅短剧",
-      "name": "✨好帅短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "作者": "乐哥20041011",
-        "站名": "你好帅影院",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://nhsyy.com",
-        "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
-        "数组": "module-item-pic&&module-item\"",
-        "标题": "title=\"&&\"",
-        "图片": "data-src=\"&&\"",
-        "副标题": "✨+item-text\">&&</",
-        "链接": "href=\"&&\"",
-        "线路数组": "data-dropdown&&</div>",
-        "线路标题": "✨沧海笑✨+<span>&&</+【共+<small>&&<+集】",
-        "播放数组": "-blocklist\">&&</div>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": "✨+<span>&&</",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "搜索模式": "1",
-        "搜索url": "https://nhsyy.com/vodsearch/{wd}----------{pg}---.html",
-        "分类url": "https://nhsyy.com/vodshwo/{cateId}--------{catePg}---.html",
-        "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#玄幻$xuanhuan#言情$yanqing"
-      }
-    },
+            "key": "✨丽宫短剧✨",
+            "name": "✨丽宫短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/丽宫短剧.json"
+        },
         {
-      "key": "✨唐人街影院✨",
-      "name": "✨唐人街短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/唐人街短剧.json"
-    },
-        
+            "key": "✨NUU短剧✨",
+            "name": "✨NUU短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/NUU短剧.json"
+        },
         {
-      "key": "爱你短剧",
-      "name": "✨爱你短剧✨",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://ainidj.com/",
-        "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
-        "数组": "module-item-pic&&module-item\"",
-        "图片": "data-src=\"&&\"",
-        "标题": "title=\"&&\"",
-        "副标题": "✨+module-item-text\">&&</div>",
-        "链接": "href=\"&&\"",
-        "简介": "✨沧海笑祝各位观影愉快！！！",
-        "播放数组": "blocklist\">&&</div>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": "✨+<span>&&</",
-        "搜索模式": "1",
-        "搜索url": "https://ainidj.com/vodsearch/{wd}----------{pg}---.html",
-        "搜索数组": "lazyload\"&&</a>",
-        "搜索标题": "title=\"&&\"",
-        "搜索图片": "data-src=\"&&\"",
-        "搜索链接": "href=\"&&\"",
-        "分类url": "https://ainidj.com/vodtype/{cateId}-{catePg}.html",
-        "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#玄幻$xuanhuan#言情$yanqing"
-      }
-    },
-        
+            "key": "✨可爱短剧✨",
+            "name": "✨可爱短剧✨",
+            "type": 3,
+            "jar": "./jar/sjc.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/可爱短剧.json"
+        },
+        {
+            "key": "✨追剧网✨",
+            "name": "✨追剧短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/追剧短剧.json"
+        },
+        {
+            "key": "✨无敌短剧✨",
+            "name": "✨无敌短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/无敌短剧.json"
+        },
+        {
+            "key": "大鱼短剧",
+            "name": "✨大鱼短剧✨",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://dayuya.com/index.php/vod/show/id/33.html",
+                "首页": "120",
+                "起始页": "1",
+                "数组": "/vod/detail/id/&&/div></div>",
+                "标题": "title=\"&&\"",
+                "图片": "data-original=\"&&\"",
+                "副标题": "text\">&&<",
+                "链接": "/index.php/vod/detail/id/+&&\"",
+                "线路数组": "data-dropdown&&</div>",
+                "线路标题": "✨+<span>&&</+【共+<small>&&</+集】",
+                "搜索模式": "1",
+                "搜索url": "/index.php/ajax/suggest?mid=1&wd={wd}&page={pg}&limit=30",
+                "搜索数组": "list",
+                "搜索标题": "name",
+                "搜索图片": "pic",
+                "搜索副标题": "en",
+                "搜索链接": "'/index.php/vod/detail/id/'+id+'.html'",
+                "简介": "✨沧海笑提醒您:【请不要相信视频中的广告，以免上当受骗!】",
+                "分类url": "https://dayuya.com/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+                "分类": "虐恋$60#古装仙侠$41#逆袭$61#悬疑$62#神豪$63#重生$64#复仇$65#穿越$66#甜宠$67#强者$68#萌宝$69#其它$70#合集$71"
+            }
+        },
+        {
+            "key": "好帅短剧",
+            "name": "✨好帅短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "作者": "乐哥20041011",
+                "站名": "你好帅影院",
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://nhsyy.com",
+                "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
+                "数组": "module-item-pic&&module-item\"",
+                "标题": "title=\"&&\"",
+                "图片": "data-src=\"&&\"",
+                "副标题": "✨+item-text\">&&</",
+                "链接": "href=\"&&\"",
+                "线路数组": "data-dropdown&&</div>",
+                "线路标题": "✨沧海笑✨+<span>&&</+【共+<small>&&<+集】",
+                "播放数组": "-blocklist\">&&</div>",
+                "播放列表": "<a&&a>",
+                "播放链接": "href=\"&&\"",
+                "播放标题": "✨+<span>&&</",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "搜索模式": "1",
+                "搜索url": "https://nhsyy.com/vodsearch/{wd}----------{pg}---.html",
+                "分类url": "https://nhsyy.com/vodshwo/{cateId}--------{catePg}---.html",
+                "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#玄幻$xuanhuan#言情$yanqing"
+            }
+        },
+        {
+            "key": "✨唐人街影院✨",
+            "name": "✨唐人街短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/唐人街短剧.json"
+        },
+        {
+            "key": "爱你短剧",
+            "name": "✨爱你短剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://ainidj.com/",
+                "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
+                "数组": "module-item-pic&&module-item\"",
+                "图片": "data-src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "✨+module-item-text\">&&</div>",
+                "链接": "href=\"&&\"",
+                "简介": "✨沧海笑祝各位观影愉快！！！",
+                "播放数组": "blocklist\">&&</div>",
+                "播放列表": "<a&&a>",
+                "播放链接": "href=\"&&\"",
+                "播放标题": "✨+<span>&&</",
+                "搜索模式": "1",
+                "搜索url": "https://ainidj.com/vodsearch/{wd}----------{pg}---.html",
+                "搜索数组": "lazyload\"&&</a>",
+                "搜索标题": "title=\"&&\"",
+                "搜索图片": "data-src=\"&&\"",
+                "搜索链接": "href=\"&&\"",
+                "分类url": "https://ainidj.com/vodtype/{cateId}-{catePg}.html",
+                "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#玄幻$xuanhuan#言情$yanqing"
+            }
+        },
         {
             "key": "爱看4K",
             "name": "✨爱看4K短剧✨",
@@ -1008,18 +1008,16 @@
             "ext": "./json/91duanju.json",
             "jar": "./jar/csp_HK_91短剧.jar"
         },
-        
         {
-      "key": "js_星芽短剧",
-      "name": "🌷星芽短剧",
-      "type": 3,
-      "api": "./api/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./JS/星芽短剧.js"
-    },
-        
+            "key": "js_星芽短剧",
+            "name": "🌷星芽短剧",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./JS/星芽短剧.js"
+        },
         {
             "key": "csp_星芽短剧",
             "name": "🍡星芽短剧",
@@ -1074,19 +1072,17 @@
             },
             "jar": "./jar/短剧tv.jar"
         },
-        
         {
-      "key": "✨555短剧✨",
-      "name": "🔥555短剧🔥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/555短剧.json"
-    },
-        
+            "key": "✨555短剧✨",
+            "name": "🔥555短剧🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/555短剧.json"
+        },
         {
             "key": "555zxdy",
             "name": "🎋555短剧",
@@ -1420,9 +1416,6 @@
                 "ratio": 3.8
             }
         },
-        
-        
-        
         {
             "key": "csp_vs",
             "name": "🔥┃维斯┃自制",
