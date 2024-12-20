@@ -3,7 +3,7 @@
         {
             "name": "沧海笑1",
             "type": 0,
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/loopool/fan/main/a.json",
+            "url": "http://ftyyy.tk/live.txt",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.iill.top/logo/{name}.png"
