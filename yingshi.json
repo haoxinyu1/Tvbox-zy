@@ -3,7 +3,7 @@
         {
             "name": "沧海笑1",
             "type": 0,
-            "url": "https://ghcy.eu.org/https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt",
+            "url": "https://ghcy.eu.org/https://raw.githubusercontent.com/joevess/IPTV/refs/heads/main/iptv.m3u8",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.iill.top/logo/{name}.png"
