@@ -1,16 +1,27 @@
 {
     "sites": [
     
-       {
-            "key": "✨安迪短剧✨",
-            "name": "✨安迪短剧✨",
+       {"key": "SOAV2",
+            "name": "🔞SOAV2",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/安迪短剧.json"
+   "jar": "./jar/o.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": {
+                "主页url": "https://777170.xyz/",
+                "搜索url": "https://777170.xyz/?s={wd}",
+                "数组": "data-video-uid=&&</div>",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "</i>&&</span>",
+                "链接": "href=\"&&\"",
+                "简介": "⚠️少看点，再看你就废了！！！",
+                "分类url": "https://777170.xyz/category/{cateId}/page/{catePg}/;;z",
+                "分类": "國產精選$探花約炮$探花約炮#日韓影片$日韓影片#無碼素人$無碼素人#歐美專區$歐美專區#中字動漫$中字動漫"
+            }
         },
     
        {
@@ -824,6 +835,8 @@
                 "分类链接": "https://vip.woaav.online:13097/vodshow/{cateId}--------{catePg}---.html"
             }
         },
+        
+        {"key":"csp_xBPQ_香蕉超清","name":"🏆香蕉超清","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"./json/香蕉超清.json","jar":"./jar/Yoursmile2.jar"},
         
           {
         "key": "csp_XBPQ_天天综合",

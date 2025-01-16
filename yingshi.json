@@ -2,9 +2,82 @@
     "lives": [
     
         {
-            "name": "沧海笑2",
+				"name": "最强国内直播(-1天回看)",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE1SUB",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"catchup": {
+					"type": "append",
+					"source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+				}
+			},
+			
+		{
+			"name": "IPTV在线",
+			"type": 0,
+			"playerType": 2,
+			"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+			"ua": "okhttp/4.1.0",
+			"epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+			
+		},
+    
+    
+    
+    
+    
+         {
+				"name": "最强CIPTV(-1天回看)",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
+				"ua": "okhttp/3.15..",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE1SUB",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"catchup": {
+					"type": "append",
+					"source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
+				}
+			},
+    
+        {
+				"name": "肥羊B站直播",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/bililive.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "肥羊虎牙一起看",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/huyayqk.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "肥羊斗鱼一起看",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/douyuyqk.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "肥羊YY轮播",
+				"type": 0,
+				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/yylunbo.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+    
+        {
+            "name": "YanG源",
             "type": 0,
-            "url": "https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt",
+            "url": "https://tv.iill.top/m3u/Gather",
             "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.iill.top/logo/{name}.png"
@@ -19,17 +92,6 @@
             "logo": "https://epg.iill.top/logo/{name}.png"
         },
     
-    
-       {
-				"name": "肥羊国内直播",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			
-			
 			
 			{
 				"name": "肥羊虎牙一起看",
@@ -67,9 +129,21 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
-    "spider": "./jar/spider.jar",
+    "spider": "./jar/pg.jar",
     "logo": "./logo/logo4.gif",
     "sites": [
+    
+        {
+			"key": "豆瓣",
+			"name": "🌿豆瓣",
+			"type": 3,
+			"api": "csp_Douban",
+			"jar": "./jar/pg.jar",
+			"searchable": 0,
+			"changeable": 1,
+			"indexs":1,
+			"ext": "./token/tokenm.json$$$./json/douban.json"
+		},
         {
             "key": "drpy_js_腾云驾雾",
             "name": "🌿腾讯官源",
@@ -136,6 +210,34 @@
         },
         
         {
+            "key": "奈落",
+            "name": "🐥奈落┃蓝光",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/o.jar",
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "主页url": "",
+                "搜索url": "https://www.newfii.com/vodsearch/{wd}----------{pg}---.html",
+                "播放组数": "module-blocklist&&</div>",
+                "跳转播放链接": "var player_*url\":\"&&\"",
+                "跳转解析": "默认$var Player*url=",
+                "数组": "module-item&&</div>",
+                "线路标题": "<span>&&</span>",
+                "标题": "title=\"&&\"",
+                "图片": "data-src=\"&&\"",
+                "副标题": ">&&</div>",
+                "线路数组": "module-tab-item tab-item&&</div>",
+                "简介": "<span>&&</span>",
+                "链接": "href=\"&&\"",
+                "分类url": "https://www.newfii.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$1#剧集$2#综艺$4#动漫$3#记录片$5#B站$39#短剧$53#体育$45#私密$52",
+                "筛选": ""
+            }
+        }, 
+        
+        {
       "key": "萌米",
       "name": "🐥萌米",
       "type": 3,
@@ -173,6 +275,23 @@
             "ext": "./json/吾爱自用.json",
             "jar": "./jar/spider.jar"
         },
+        
+        
+        {
+			"key": "网盘配置",
+			"name": "⚙️PG网盘配置",
+			"type": 3,
+			"api": "csp_Config",
+			"jar": "./jar/pg.jar",
+			"searchable": 0,
+			"changeable": 0,
+			"ext":"./token/tokenm.json",
+			"style": {
+				"type": "rect",
+				"ratio": 1.5
+			}
+		},
+        
         {
             "key": "配置中心",
             "name": "⚙️配置┃Token",
@@ -219,9 +338,16 @@
             "ext": "./JS/KTV歌厅[听].js"
         },
        
+       {"key":"PikPakShare","name":"🐥PikPak分享","type":3,"api":"csp_PikPakShare","jar": "./jar/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./token/tokenm.json$$$./token/pikpakclass.json$$$./token/pikpakclass.json.txt.gz",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+       
        {
       "key": "网盘集合",
-      "name": "网盘集合|4K",
+      "name": "🐥网盘集合|4K",
       "type": 3,
       "api": "csp_网盘集合",
       "jar": "./jar/custom_spider.jar",
@@ -275,6 +401,14 @@
                 "type": "list"
             }
         },
+        
+        {"key":"QuarkShare","name":"🔥夸克云盘分享","type":3,"api":"csp_QuarkShare","jar": "./jar/pg.jar","searchable":1,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./token/tokenm.json$$$./token/quarkshare.txt",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+        
         {
             "key": "我的UC",
             "name": "🔥我的｜UC",
@@ -310,24 +444,7 @@
                 "type": "list"
             }
         },
-        {
-            "key": "QuarkShare",
-            "name": "👽夸克云盘分享",
-            "type": 3,
-            "api": "csp_QuarkShare",
-            "jar": "./jar/pg.jar",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./token/tokenm.json$$$./token/quarkshare.txt",
-            "style": {
-                "type": "list",
-                "ratio": 1.1
-            },
-            "order_num": 9999
-        },
+        
         {
             "key": "玩偶",
             "name": "👽玩偶┃4K",
@@ -409,6 +526,72 @@
         
         
         {
+      "key": "黑木耳",
+      "name": "🌿黑木耳",
+      "type": 1,
+      "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        
+        "虐恋短剧",
+        "逆袭短剧",
+        "悬疑短剧",
+        "神豪短剧",
+        "重生短剧",
+        "复仇短剧",
+        "穿越短剧",
+        "甜宠短剧",
+        "强者短剧",
+        "萌宝短剧",
+        "其它短剧",
+        "逆袭短剧",
+        "剧情片",
+        "动作片",
+        "冒险片",
+        "同性片",
+        "喜剧片",
+        "奇幻片",
+        "恐怖片",
+        "动作片",
+        "国产剧",
+        "国产动漫",
+        "欧美动漫",
+        "日本动漫",
+        "韩国动漫",
+        "港台动漫",
+        "其它动漫",
+        "韩剧",
+        "日剧",
+        "悬疑片",
+        "惊悚片",
+        "灾难片",
+        "爱情片",
+        "犯罪片",
+        "科幻片",
+        "动画电影",
+        "短剧",
+        "泰剧",
+        "台剧",
+        "欧美剧",
+        "新马剧",
+        "其他剧",
+        "战争片",
+        "经典片",
+        "网络电影",
+        "其它片",
+        "国产综艺",
+        "港台综艺",
+        "韩国综艺",
+        "日本综艺",
+        "欧美综艺",
+        "港剧"
+        
+      ]
+    },
+        
+        {
       "key": "最大资源",
       "name": "🟡最大",
       "type": 1,
@@ -428,6 +611,8 @@
         "现代都市"
       ]
     },
+        {"key":"短剧","name":"🌞短剧|采集","type":1,"api":"https://api.wwzy.tv/api.php/provide/vod"},
+        
         
         {
       "key": "✨影视大全✨",
