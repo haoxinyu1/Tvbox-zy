@@ -1,6 +1,51 @@
 {
     "sites": [
     
+    
+    {
+      "key": "采集G(jkun)",
+      "name": "撸铁🍈甜瓜",
+      "type": 1,
+      "api": "https://www.jkunzyapi.com/api.php/provide/vod/",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    
+    {
+      "key": "yycmszyw.com",
+      "name": "优优🍊资源",
+      "type": 1,
+      "api": "https://jk1.yycmszywapi.cc/api.php/provide/vod",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    
+    {
+      "key": "aosikazy4.com",
+      "name": "撸铁🍅奥斯卡",
+      "type": 1,
+      "api": "https://aosikazy7.com/api.php/provide/vod/",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    
+    {
+      "key": "didizy.com",
+      "name": "撸铁🍅滴滴资源",
+      "type": 0,
+      "api": "https://api.ddapi.cc/api.php/provide/vod/at/xml",
+     "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }, 
+    
        {"key": "SOAV2",
             "name": "🔞SOAV2",
             "type": 3,

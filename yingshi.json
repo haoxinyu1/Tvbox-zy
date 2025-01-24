@@ -12,6 +12,7 @@
                 "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
             }
         },
+        
         {
             "name": "IPTV在线",
             "type": 0,
@@ -113,9 +114,10 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
-    "spider": "./jar/pg.jar",
+    "spider": "./jar/fty.jar;md5;262a678665ac3d5c727a8c812b31dfdf",
     "logo": "./logo/logo4.gif",
     "sites": [
+        
         {
             "key": "豆瓣",
             "name": "🌿豆瓣",
@@ -127,6 +129,9 @@
             "indexs": 1,
             "ext": "./token/tokenm.json$$$./json/douban.json"
         },
+        
+       
+        
         {
             "key": "drpy_js_腾云驾雾",
             "name": "🌿腾讯官源",
@@ -260,6 +265,19 @@
             "ext": "./json/吾爱自用.json",
             "jar": "./jar/spider.jar"
         },
+        
+        {
+      "key": "DG音乐仓",
+      "name": "🅱音乐台",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "./json/ych.json",
+       "jar": "./jar/spider.jar"
+    },
+        
         {
             "key": "网盘配置",
             "name": "⚙️PG网盘配置",
