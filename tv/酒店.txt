@@ -13,6 +13,7 @@ CCTV-12社会与法,http://123.54.173.116:808/hls/12/index.m3u8
 CCTV-13新闻,http://123.54.173.116:808/hls/13/index.m3u8
 CCTV-14少儿,http://123.54.173.116:808/hls/14/index.m3u8
 CCTV-15音乐,http://123.54.173.116:808/hls/15/index.m3u8
+CCTV16,http://123.54.173.116:808/hls/160/index.m3u8
 CGTN,http://123.54.173.116:808/hls/16/index.m3u8
 CCTV17农业农村,http://123.54.173.116:808/hls/17/index.m3u8
 CCTV5+体育赛事,http://123.54.173.116:808/hls/18/index.m3u8
@@ -65,4 +66,4 @@ CETV1,http://123.54.173.116:808/hls/19/index.m3u8
 信阳公共频道,http://123.54.173.116:808/hls/101/index.m3u8
 浉河广电中心,http://123.54.173.116:808/hls/102/index.m3u8
 平桥广电中心,http://123.54.173.116:808/hls/103/index.m3u8
-CCTV16,http://123.54.173.116:808/hls/160/index.m3u8
+

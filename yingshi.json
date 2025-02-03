@@ -1,6 +1,22 @@
 {
     "lives": [
         {
+            "name": "河南酒店IPTV",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/酒店.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
+            "name": "江西酒店IPTV",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/江西.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
             "name": "最强国内直播(-1天回看)",
             "type": 0,
             "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
@@ -12,50 +28,38 @@
                 "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
             }
         },
-        
         {
-				"name": "肥羊咪咕电视直播",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/1800/null/http://127.0.0.1:35456/migu.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			
-			{
-				"name": "肥羊MG赛事直播",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/miguevent.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "肥羊TX赛事直播",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/txevent.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "肥羊QY赛事直播",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/iqyevent.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-        
-        {
-            "name": "河南酒店IPTV",
+            "name": "肥羊咪咕电视直播",
             "type": 0,
-            "playerType": 2,
-            "url": "./tv/酒店.txt",
-            "ua": "okhttp/4.1.0",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+            "url": "http://127.0.0.1:10079/c/1800/null/http://127.0.0.1:35456/migu.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
         },
-        
+        {
+            "name": "肥羊MG赛事直播",
+            "type": 0,
+            "url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/miguevent.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "肥羊TX赛事直播",
+            "type": 0,
+            "url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/txevent.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "肥羊QY赛事直播",
+            "type": 0,
+            "url": "http://127.0.0.1:10079/c/60/null/http://127.0.0.1:35456/iqyevent.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
         {
             "name": "河南酒店IPTV1",
             "type": 0,
@@ -64,7 +68,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "河南酒店IPTV2",
             "type": 0,
@@ -73,8 +76,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
-        
         {
             "name": "IPTV在线",
             "type": 0,
@@ -83,7 +84,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "肥羊B站直播",
             "type": 0,
@@ -168,7 +168,6 @@
     "spider": "./jar/fty.jar;md5;262a678665ac3d5c727a8c812b31dfdf",
     "logo": "./logo/logo4.gif",
     "sites": [
-        
         {
             "key": "豆瓣",
             "name": "🌿豆瓣",
@@ -180,9 +179,6 @@
             "indexs": 1,
             "ext": "./token/tokenm.json$$$./json/douban.json"
         },
-        
-       
-        
         {
             "key": "drpy_js_腾云驾雾",
             "name": "🌿腾讯官源",
@@ -316,19 +312,17 @@
             "ext": "./json/吾爱自用.json",
             "jar": "./jar/spider.jar"
         },
-        
         {
-      "key": "DG音乐仓",
-      "name": "🅱音乐台",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./json/ych.json",
-       "jar": "./jar/spider.jar"
-    },
-        
+            "key": "DG音乐仓",
+            "name": "🅱音乐台",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "./json/ych.json",
+            "jar": "./jar/spider.jar"
+        },
         {
             "key": "网盘配置",
             "name": "⚙️PG网盘配置",
@@ -680,8 +674,6 @@
                 "现代都市"
             ]
         },
-        
-        
         {
             "key": "河马短剧",
             "name": "🌞河马｜短剧",
@@ -693,7 +685,6 @@
             "filterable": 0,
             "ext": "KhY021WelCEl+6MsvwnzaPussky/EAoc9z7C4keyHaEQ+sKbXhMKd83VjTL7Ls6+m7XDIcGdziOxPv79y/h4QCvmOEJmZ1VD6dopzAVxkFzEFw=="
         },
-        
         {
             "key": "吉吉短剧",
             "name": "✨吉吉｜短剧",
@@ -713,7 +704,6 @@
             "filterable": 1,
             "ext": "./json/爱我短剧.json"
         },
-        
         {
             "key": "短剧",
             "name": "🌞短剧|采集",
@@ -2178,7 +2168,6 @@
     ],
     "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
     "parses": [
-    
         {
             "name": "臻享",
             "type": "1",
@@ -2208,7 +2197,6 @@
                 }
             }
         },
-    
         {
             "name": "冰豆",
             "url": "https://bd.jx.cn/?url=",
