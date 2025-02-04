@@ -1,18 +1,101 @@
 {
     "lives": [
+        
         {
             "name": "河南酒店IPTV",
             "type": 0,
             "playerType": 2,
-            "url": "./tv/酒店.txt",
+            "url": "./tv/酒店源/信阳豫港酒店(1).txt",
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
+        
+        {
+            "name": "河南酒店IPTV1",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/酒店源/信阳豫港酒店.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
+        {
+            "name": "榴芒直播IPTV",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/酒店源/榴芒直播.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
+        {
+            "name": "榴芒直播在线",
+            "type": 0,
+            "playerType": 2,
+            "url": "http://106.53.99.30/2025.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
+        {
+            "name": "广东酒店IPTV",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/酒店源/广东.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
+        {
+            "name": "广东酒店IPTV1",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/酒店源/广东(1).txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
+        {
+            "name": "内蒙酒店IPTV",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/酒店源/内蒙.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
+        {
+            "name": "平顶山酒店IPTV",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/酒店源/平顶山.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
+        {
+            "name": "西安酒店IPTV",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/酒店源/西安.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
+        {
+            "name": "叁川酒店IPTV",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/酒店源/叁川酒店.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
         {
             "name": "江西酒店IPTV",
             "type": 0,
             "playerType": 2,
-            "url": "./tv/江西.txt",
+            "url": "./tv/酒店源/江西.txt",
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
