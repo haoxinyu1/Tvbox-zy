@@ -1,3 +1,5 @@
+🐼央视,#genre#
+
 CCTV1,http://182.122.75.115:8089/hls/1/index.m3u8
 CCTV2,http://182.122.75.115:8089/hls/2/index.m3u8
 CCTV3,http://182.122.75.115:8089/hls/3/index.m3u8
@@ -13,6 +15,9 @@ CCTV12,http://182.122.75.115:8089/hls/12/index.m3u8
 CCTV13,http://182.122.75.115:8089/hls/13/index.m3u8
 CCTV14,http://182.122.75.115:8089/hls/14/index.m3u8
 CCTV15,http://182.122.75.115:8089/hls/15/index.m3u8
+
+🐼卫视,#genre#
+
 河南卫视,http://182.122.75.115:8089/hls/17/index.m3u8
 河南都市,http://182.122.75.115:8089/hls/18/index.m3u8
 河南民生,http://182.122.75.115:8089/hls/19/index.m3u8

@@ -1,6 +1,16 @@
 {
     "lives": [
         
+        
+        {
+            "name": "漯河酒店IPTV",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/酒店源/漯河市.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
         {
             "name": "河南酒店IPTV",
             "type": 0,
@@ -307,6 +317,27 @@
             "api": "./mv/16万hys.js",
             "ext": "./mv/16万mv.js"
         },
+        
+        {
+      "key": "转点",
+      "name": "🐼️直转点播",
+      "type": 3,
+      "api": "./JS/apiv直转点.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./tv/直转点.txt"
+    },
+        
+        {
+			"key": "直播转点播",
+			"name": "🐼️┃电视┃直播",
+			"type": 3,
+			"searchable": 0,
+			"api": "./JS/live2vod.js",
+			"ext": "./tv/feimaolive.json"
+		},
+        
         {
             "key": "欢视",
             "name": "⛳欢视",
