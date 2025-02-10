@@ -6,23 +6,20 @@
             "playerType": 2,
             "url": "https://ghproxy.net/https://raw.githubusercontent.com/canghaixiao369/IPTV/refs/heads/main/itvlist.txt",
             "ua": "okhttp/4.1.0",
-            "img": "https://ghproxy.net/https://raw.githubusercontent.com/canghaixiao369/zy/refs/heads/main/tv/beijing.jpg", 
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
-				"name": "最强国内直播(合并版)",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/all.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
-				"catchup": {
-					"type": "append",
-					"source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-				}
-			},
-        
+            "name": "最强国内直播(合并版)",
+            "type": 0,
+            "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/all.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+            "catchup": {
+                "type": "append",
+                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+            }
+        },
         {
             "name": "漯河酒店IPTV",
             "type": 0,
@@ -31,7 +28,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "码点干货源",
             "type": 0,
@@ -40,7 +36,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "河南酒店IPTV",
             "type": 0,
@@ -49,7 +44,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "河南酒店IPTV1",
             "type": 0,
@@ -58,7 +52,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "榴芒直播IPTV",
             "type": 0,
@@ -67,7 +60,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "榴芒直播在线",
             "type": 0,
@@ -76,7 +68,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "广东酒店IPTV",
             "type": 0,
@@ -85,7 +76,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "广东酒店IPTV1",
             "type": 0,
@@ -94,7 +84,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "内蒙酒店IPTV",
             "type": 0,
@@ -103,7 +92,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "平顶山酒店IPTV",
             "type": 0,
@@ -112,7 +100,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "西安酒店IPTV",
             "type": 0,
@@ -121,7 +108,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "叁川酒店IPTV",
             "type": 0,
@@ -130,7 +116,6 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
         {
             "name": "江西酒店IPTV",
             "type": 0,
@@ -347,43 +332,35 @@
             "api": "./mv/16万hys.js",
             "ext": "./mv/16万mv.js"
         },
-        
-        
         {
-			"key": "直播转点播",
-			"name": "🐼️电影自取源",
-			"type": 3,
-			"searchable": 0,
-			"api": "./JS/live2vod.js",
-			"ext": "./tv/feimaolive.json"
-		},
-        
-       {
-      "key": "转点2",
-      "name": "🐼️直转点",
-      "type": 3,
-      "api": "./JS/apiv直转点.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./tv/直转点.txt"
-    },
-        
-       {
-			"key": "hipy_js_直播转点播[合]",
-			"name": "📣电影自取源(drpy_t3)",
-			"type": 3,
-			"api": "./api/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./JS/直播转点播[合].js?type=url&params=../json/live2cms.json"
-		},
-        
-        
-        
-        
+            "key": "直播转点播",
+            "name": "🐼️电影自取源",
+            "type": 3,
+            "searchable": 0,
+            "api": "./JS/live2vod.js",
+            "ext": "./tv/feimaolive.json"
+        },
+        {
+            "key": "转点2",
+            "name": "🐼️直转点",
+            "type": 3,
+            "api": "./JS/apiv直转点.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./tv/直转点.txt"
+        },
+        {
+            "key": "hipy_js_直播转点播[合]",
+            "name": "📣电影自取源(drpy_t3)",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./JS/直播转点播[合].js?type=url&params=../json/live2cms.json"
+        },
         {
             "key": "欢视",
             "name": "⛳欢视",
@@ -2328,10 +2305,16 @@
     ],
     "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
     "parses": [
-    
-            {"name": "MeowTV1" ,"type": 0,"url": "https://bd.jx.cn/?url="},
-    {"name": "MeowTV2" ,"type": 0,"url": "https://jx.m3u8.tv/jiexi/?url="},
-    
+        {
+            "name": "MeowTV1",
+            "type": 0,
+            "url": "https://bd.jx.cn/?url="
+        },
+        {
+            "name": "MeowTV2",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
+        },
         {
             "name": "臻享",
             "type": "1",
