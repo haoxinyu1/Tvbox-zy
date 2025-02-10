@@ -1,11 +1,12 @@
 {
     "lives": [
         {
-            "name": "漯河酒店IPTV",
+            "name": "酒店IPTV",
             "type": 0,
             "playerType": 2,
-            "url": "./tv/酒店源/itvlist.txt",
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/canghaixiao369/IPTV/refs/heads/main/itvlist.txt",
             "ua": "okhttp/4.1.0",
+            "img": "https://ghproxy.net/https://raw.githubusercontent.com/canghaixiao369/zy/refs/heads/main/tv/beijing.jpg", 
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         
