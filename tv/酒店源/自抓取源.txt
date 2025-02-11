@@ -1,5 +1,12 @@
 ﻿武侠片,#genre#
 
+
+洪熙官1994, https://cdn7.ryplay7.com/20240929/2631_befff88d/2000k/hls/index.m3u8
+新龙门客栈1992, https://cdn1.ryplay1.com/20240906/6850_70be9acc/2000k/hls/index.m3u8
+五鼠闹东京, https://yzzy.play-cdn8.com/20220825/16078_0de75650/1000k/hls/index.m3u8
+少林寺十八罗汉, https://yzzy.play-cdn17.com/20230726/13149_0ed73e56/2000k/hls/index.m3u8
+龙门客栈, https://yzzy.play-cdn14.com/20230422/18777_129656e4/2000k/hls/index.m3u8
+
 九品芝麻官(国语), https://play.modujx11.com/20250208/0WTcGgj8/4730kb/hls/index.m3u8
 大醉侠, https://play.modujx15.com/20240820/TIVELiSx/2000kb/hls/index.m3u8
 警察故事3：超级警察, https://play.modujx16.com/20241011/ntBFIaPM/2000kb/hls/index.m3u8
