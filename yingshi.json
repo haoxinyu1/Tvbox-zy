@@ -8,6 +8,16 @@
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
+        
+        {
+            "name": "酒店IPTV1",
+            "type": 0,
+            "playerType": 2,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/canghaixiao369/IPTV1/refs/heads/main/itvlist.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
         {
             "name": "最强国内直播(合并版)",
             "type": 0,
