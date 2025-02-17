@@ -173,7 +173,7 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
-    "spider": "./jar/fty.jar;md5;262a678665ac3d5c727a8c812b31dfdf",
+    "spider": "",
     "logo": "./logo/logo4.gif",
     "sites": [
         {
