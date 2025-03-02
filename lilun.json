@@ -2,29 +2,25 @@
     "spider": "./jar/xyqxbpq.jar",
     "logo": "./logo/logo2.gif",
     "sites": [
-    
-        
         {
-      "key": "最大资源",
-      "name": "🟡最大┃三级",
-      "type": 1,
-      "api": "http://zuidazy.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "categories": [
-        "伦理",
-        "港台三级",
-        "韩国伦理",
-        "西方伦理",
-        "日本伦理",
-        "两性课堂",
-        "写真热舞"
-        
-      ]
-    },
-    
+            "key": "最大资源",
+            "name": "🟡最大┃三级",
+            "type": 1,
+            "api": "http://zuidazy.me/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "categories": [
+                "伦理",
+                "港台三级",
+                "韩国伦理",
+                "西方伦理",
+                "日本伦理",
+                "两性课堂",
+                "写真热舞"
+            ]
+        },
         {
             "key": "✨鹊桥逍遥✨",
             "name": "✨鹊桥逍遥✨",

@@ -1,27 +1,39 @@
 {
     "lives": [
-        
         {
-            "name": "酒店IPTV1",
+            "name": "河南IPTV",
             "type": 0,
-            "playerType": 2,
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/canghaixiao369/IPTV1/refs/heads/main/itvlist.txt",
-            "ua": "okhttp/4.1.0",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+            "url": "https://ghcy.eu.org/https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": "3",
+            "playerType": 2
         },
-        
-        
         {
-            "name": "酒店IPTV",
+            "name": "不错的IPTV",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.txt",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": "3",
+            "playerType": 2
+        },
+        {
+            "name": "在维护IPTV",
             "type": 0,
             "playerType": 2,
             "url": "https://ghproxy.net/https://raw.githubusercontent.com/canghaixiao369/IPTV/refs/heads/main/itvlist.txt",
             "ua": "okhttp/4.1.0",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
-        
-        
-        
+        {
+            "name": "在维护IPTV1",
+            "type": 0,
+            "playerType": 2,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/canghaixiao369/IPTV1/refs/heads/main/itvlist.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
         {
             "name": "最强国内直播(合并版)",
             "type": 0,
@@ -33,14 +45,6 @@
                 "type": "append",
                 "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
             }
-        },
-        {
-            "name": "漯河酒店IPTV",
-            "type": 0,
-            "playerType": 2,
-            "url": "./tv/酒店源/itvlist.txt",
-            "ua": "okhttp/4.1.0",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
             "name": "码点干货源",
@@ -287,7 +291,7 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
-    "spider": "./jar/fty.jar;md5;262a678665ac3d5c727a8c812b31dfdf",
+    "spider": "./jar/FG.jar",
     "logo": "./logo/logo4.gif",
     "sites": [
         {
@@ -400,6 +404,13 @@
             "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
         },
         {
+            "key": "追剧弹幕",
+            "name": "🐥追剧｜弹幕",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./JS/追剧弹幕.js"
+        },
+        {
             "key": "奈落",
             "name": "🐥奈落┃蓝光",
             "type": 3,
@@ -453,6 +464,17 @@
             "filterable": 0
         },
         {
+            "key": "健身",
+            "name": "🅱健身教程",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/吾爱瑜伽.json",
+            "jar": "./jar/spider.jar"
+        },
+        {
             "key": "车载DJ2",
             "name": "🅱┃自用┃AI类教程",
             "type": 3,
@@ -464,8 +486,19 @@
             "jar": "./jar/spider.jar"
         },
         {
-            "key": "DG音乐仓",
-            "name": "🅱音乐台",
+            "key": "哔哩",
+            "name": "🅱TG音乐台",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "./json/哔哩MTV.json",
+            "jar": "./jar/spider.jar"
+        },
+        {
+            "key": "DG音乐仓1",
+            "name": "🅱DG音乐台",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 1,
@@ -473,6 +506,18 @@
             "changeable": 0,
             "ext": "./json/ych.json",
             "jar": "./jar/spider.jar"
+        },
+        {
+            "key": "Guazi",
+            "name": "🌻瓜子|App",
+            "type": 3,
+            "api": "csp_Guazi",
+            "jar": "./jar/pg.jar",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": ""
         },
         {
             "key": "网盘配置",
@@ -501,6 +546,39 @@
                 "type": "rect",
                 "ratio": 1.597
             }
+        },
+        {
+            "key": "猎手影视",
+            "name": "🥯猎手｜APP",
+            "type": 3,
+            "api": "./py/猎手影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "hipy_js_爱车MV[听]",
+            "name": "🌻爱车MV[听](drpy_t3)",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./JS/爱车MV[听].js"
+        },
+        {
+            "key": "hipy_js_啊哈DJ[听]",
+            "name": "🌻苹果DJ[听](drpy_t3)",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./JS/啊哈DJ[听].js"
         },
         {
             "key": "酷狗",
@@ -1734,17 +1812,6 @@
             "ext": "./JS/采集之王[合].js?type=url&params=../json/采集静态.json"
         },
         {
-            "key": "hipy_js_啊哈DJ[听]",
-            "name": "🌻苹果DJ[听](drpy_t3)",
-            "type": 3,
-            "api": "./api/drpy.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./JS/啊哈DJ[听].js"
-        },
-        {
             "key": "大米动漫",
             "name": "🌻大米｜动漫",
             "type": 3,
@@ -2307,6 +2374,17 @@
             "jar": "./jar/jcsq.jar"
         },
         {
+            "key": "版本信息",
+            "name": "版本｜信息",
+            "type": 3,
+            "api": "csp_Market",
+            "jar": "./jar/spider2.jar",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "ext": "https://d.kstore.dev/download/11354/market.json"
+        },
+        {
             "key": "應用商店",
             "name": "♻️影视软件下载商店",
             "type": 3,
@@ -2314,7 +2392,7 @@
             "searchable": 0,
             "changeable": 0,
             "ext": "./json/商店.json",
-            "jar": "./jar/fm商店.jar"
+            "jar": "./jar/spider2.jar"
         }
     ],
     "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
