@@ -316,8 +316,6 @@ By2_没理由,https://bj.bcebos.com/v1/baidu-little-video/vod-gechgi84v43uhfhp/m
 
 央视,#genre#
 
-oneTV斗地主,http://play2.one-tv.com/live/onetv.m3u8
-
 
 CCTV13,https://ldncctvwbndhwy.cntv.myhwcdn.cn/ldncctvwbnd/ldcctv13_2/index.m3u8
 
@@ -378,34 +376,25 @@ CCTV17,http://8.138.7.223/tv/dl/careryun.php?id=19
 
 哪吒之魔童闹海,https://hn.bfvvs.com/play/NbWYAwEe/index.m3u8
 战狼2,https://vip.ffzy-play6.com/20221031/3109_5ae1e2e3/index.m3u8
-
 功夫熊猫4(国语),https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_nas01/asset/zhengshi/5105/455/262/5105455262/media/5105455262_5261583938_56.mp4
-
 笑傲江湖（普通话）,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_nas02/asset/zhengshi/5105/660/658/5105660658/media/5105660658_5303708413_56.mp4
-
 少林寺,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_cidcobs_wxlz03/asset/zhengshi/5102/073/005/5102073005/media/5102073005_5122172733_56.mp4
-
 新龙门客栈（普通话）,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_cidcobs_wxlz03/asset/zhengshi/5100/071/754/5100071754/media/5100071754_5166417867_56.mp4
-
 倚天屠龙记之九阳神功（普通话）,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_yqv/asset/zhengshi/5103/558/018/5103558018/media/5103558018_5011742514_56.mp4
-
 白眉大侠之安吉尔,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_nas03/asset/zhengshi/5105/579/148/5105579148/media/5105579148_5276876613_56.mp4
-
 新少林五祖,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_cidcobs_wxlz03/asset/zhengshi/5102/744/365/5102744365/media/5102744365_5110586649_56.mp4
-
 太极张三丰（普通话）,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_yqv/asset/zhengshi/3012/395/820/3012395820/media/3012395820_5065792869_56.mp4
-
 绝代双骄,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository-nas05/asset/zhengshi/5105/677/582/5105677582/media/5105677582_5308051118_56.mp4
-
 怪医刀客,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_nas02/asset/zhengshi/5105/608/209/5105608209/media/5105608209_5291473629_56.mp4
-
 复仇者联盟4：终局之战（普通话）,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_yqv/asset/zhengshi/5103/287/712/5103287712/media/5103287712_5236072739_56.mp4
-
 花木兰（普通话）,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_nas01/asset/zhengshi/5103/260/908/5103260908/media/5103260908_5243546008_56.mp4
-
-
 战狼,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_cidcobs_wxlz03/asset/zhengshi/3007/492/358/3007492358/media/3007492358_5103249996_56.mp4
+猩球崛起1,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository-nas05/asset/zhengshi/5103/291/144/5103291144/media/5103291144_5308670384_56.mp4
+猩球崛起2,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository-nas05/asset/zhengshi/5103/363/038/5103363038/media/5103363038_5306985946_56.mp4
 
+猩球崛起3,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_cidcobs_wxlz03/asset/zhengshi/5103/548/056/5103548056/media/5103548056_5179310445_56.mp4
+红海行动,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_cidcobs_wxlz03/asset/zhengshi/5101/003/837/5101003837/media/5101003837_5167431053_56.mp4
+功夫,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_yqv/asset/zhengshi/5103/094/406/5103094406/media/5103094406_5011708132_56.mp4
 赌神2,https://vip.ffzy-play7.com/20230116/11633_72296dc8/index.m3u8
 变形金刚4绝迹重生,https://vip.ffzy-play6.com/20221027/2221_d1fddcad/index.m3u8
 我是谁,https://vip.ffzy-play6.com/20221022/880_a88f1adb/index.m3u8
@@ -496,8 +485,20 @@ CCTV17,http://8.138.7.223/tv/dl/careryun.php?id=19
 
 
 战争片,#genre#
-地道战, https://dp.qkmov.cc/?url=https://v.cdnlz19.com/20240914/44709_2e429df0/index.m3u8
-地雷战, https://m3u8ipay.vodfile.m1905.com/202502100958/cf0e55e3162380a0d79e08a4a29a8e8d/movie/2019/05/10/m201905107P646WIQYPNK6ZXY/45405CEA60E54CC5E3447BCA1.m3u8
+地道战, https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_yqv/asset/zhengshi/3004/577/481/3004577481/media/3004577481_5013211486_56.mp4
+地雷战, https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_yqv/asset/zhengshi/3004/306/563/3004306563/media/3004306563_5011263661_56.mp4
+南征北战,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_nas02/asset/zhengshi/3011/159/521/3011159521/media/3011159521_5294585178_56.mp4
+忠烈杨家将（普通话）,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_wx/asset/zhengshi/3010/940/314/3010940314/media/3010940314_5008237105_56.mp4
+小兵张嘎,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_cidcobs_wxlz03/asset/zhengshi/3011/039/449/3011039449/media/3011039449_5161187918_56.mp4
+
+猛虎兵王,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_yqv/asset/zhengshi/5103/620/742/5103620742/media/5103620742_5031519029_56.mp4
+
+百团大战,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_nas03/asset/zhengshi/3009/331/730/3009331730/media/3009331730_5289486299_56.mp4
+狼牙山五壮士,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_yqv/asset/zhengshi/3011/099/784/3011099784/media/3011099784_5011263627_455.mp4
+刘胡兰,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_cidcobs_wxlz03/asset/zhengshi/3011/097/755/3011097755/media/3011097755_5177617943_56.mp4
+红色娘子军,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_yqv/asset/zhengshi/3011/039/970/3011039970/media/3011039970_5018472076_56.mp4
+鸡毛信,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_nas02/asset/zhengshi/3013/545/239/3013545239/media/3013545239_5296131389_56.mp4
+
 
 
 
