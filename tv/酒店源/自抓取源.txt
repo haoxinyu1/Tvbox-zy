@@ -314,56 +314,6 @@ By2_没理由,https://bj.bcebos.com/v1/baidu-little-video/vod-gechgi84v43uhfhp/m
 
 
 
-央视,#genre#
-
-
-CCTV13,https://ldncctvwbndhwy.cntv.myhwcdn.cn/ldncctvwbnd/ldcctv13_2/index.m3u8
-
-CCTV1,https://ldncctvwbndhwy.cntv.myhwcdn.cn/ldncctvwbnd/ldcctv1_2/index.m3u8
-
-CCTV1,http://8.138.7.223/tv/dl/careryun.php?id=1
-CCTV2,http://8.138.7.223/tv/dl/careryun.php?id=2
-CCTV3,http://8.138.7.223/tv/dl/careryun.php?id=3
-CCTV4,http://8.138.7.223/tv/dl/careryun.php?id=4
-CCTV4,http://8.138.7.223/tv/dl/careryun.php?id=5
-CCTV4,http://8.138.7.223/tv/dl/careryun.php?id=6
-CCTV5,http://8.138.7.223/tv/dl/careryun.php?id=7
-CCTV5,http://8.138.7.223/tv/dl/careryun.php?id=8
-CCTV6,http://8.138.7.223/tv/dl/careryun.php?id=9
-CCTV7,http://8.138.7.223/tv/dl/careryun.php?id=10
-CCTV8,http://8.138.7.223/tv/dl/careryun.php?id=11
-CCTV9,http://8.138.7.223/tv/dl/careryun.php?id=12
-CCTV10,http://8.138.7.223/tv/dl/careryun.php?id=13
-CCTV11,http://8.138.7.223/tv/dl/careryun.php?id=14
-CCTV12,http://8.138.7.223/tv/dl/careryun.php?id=15
-CCTV13,http://8.138.7.223/tv/dl/careryun.php?id=16
-CCTV14,http://8.138.7.223/tv/dl/careryun.php?id=17
-CCTV15,http://8.138.7.223/tv/dl/careryun.php?id=18
-CCTV17,http://8.138.7.223/tv/dl/careryun.php?id=19
-东方卫视,http://8.138.7.223/tv/dl/careryun.php?id=20
-湖南卫视,http://8.138.7.223/tv/dl/careryun.php?id=21
-浙江卫视,http://8.138.7.223/tv/dl/careryun.php?id=22
-江苏卫视,http://8.138.7.223/tv/dl/careryun.php?id=23
-北京卫视,http://8.138.7.223/tv/dl/careryun.php?id=24
-深圳卫视,http://8.138.7.223/tv/dl/careryun.php?id=25
-安徽卫视,http://8.138.7.223/tv/dl/careryun.php?id=26
-广东卫视,http://8.138.7.223/tv/dl/careryun.php?id=27
-湖北卫视,http://8.138.7.223/tv/dl/careryun.php?id=28
-山东卫视,http://8.138.7.223/tv/dl/careryun.php?id=29
-江西卫视,http://8.138.7.223/tv/dl/careryun.php?id=30
-海南卫视,http://8.138.7.223/tv/dl/careryun.php?id=31
-黑龙江卫视,http://8.138.7.223/tv/dl/careryun.php?id=32
-东南卫视,http://8.138.7.223/tv/dl/careryun.php?id=33
-河北卫视,http://8.138.7.223/tv/dl/careryun.php?id=34
-四川卫视,http://8.138.7.223/tv/dl/careryun.php?id=35
-辽宁卫视,http://8.138.7.223/tv/dl/careryun.php?id=36
-重庆卫视,http://8.138.7.223/tv/dl/careryun.php?id=37
-河南卫视,http://8.138.7.223/tv/dl/careryun.php?id=38
-贵州卫视,http://8.138.7.223/tv/dl/careryun.php?id=39
-广西卫视,http://8.138.7.223/tv/dl/careryun.php?id=40
-吉林卫视,http://8.138.7.223/tv/dl/careryun.php?id=41
-陕西卫视,http://8.138.7.223/tv/dl/careryun.php?id=42
-天津卫视,http://8.138.7.223/tv/dl/careryun.php?id=43
 
 
 
@@ -498,8 +448,6 @@ CCTV17,http://8.138.7.223/tv/dl/careryun.php?id=19
 刘胡兰,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_cidcobs_wxlz03/asset/zhengshi/3011/097/755/3011097755/media/3011097755_5177617943_56.mp4
 红色娘子军,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_yqv/asset/zhengshi/3011/039/970/3011039970/media/3011039970_5018472076_56.mp4
 鸡毛信,https://hlsdofviewmgspvod.aikan.miguvideo.com/depository_nas02/asset/zhengshi/3013/545/239/3013545239/media/3013545239_5296131389_56.mp4
-
-
 
 
 
@@ -662,18 +610,9 @@ CCTV17,http://8.138.7.223/tv/dl/careryun.php?id=19
 辽宁台相声小品,http://zzy789.xyz/douyu1.php?id=9403712
 
 
-免费公告,#genre#
-关注,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
-公众号,https://gcalic.v.myalicdn.com/gc/zjjsrsm_1/index.m3u8
-拾光趣乐屋,https://gcalic.v.myalicdn.com/gc/jhs05_1/index.m3u8
-拾光影院,https://vd3.bdstatic.com/mda-pedd0pjr3d230d6a/sc/cae_h264/1684151422563021066/mda-pedd0pjr3d230d6a.mp4
-多转存,https://vd2.bdstatic.com/mda-pe9r3itz1thdrm9i/sc/cae_h264/1683796097451505310/mda-pe9r3itz1thdrm9i.mp4
-看推文,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
-软件免费,http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
-换成支持ipv6,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
-支持所有线路,http://live.dxms.top/dwy/jyjc.php
-直播高清流畅,http://mobilelive-ds.ysp.cctv.cn/ysp/2013693901.m3u8
-更换享受超清,http://183.66.15.138:4070/udp/235.254.198.97:1664
+短剧,#genre#
+
+
 逆命神医(96集),https://vd3.bdstatic.com/mda-peds8afg0055s0nh/720p/h264/1684091269327297304/mda-peds8afg0055s0nh.mp4
 满月之下请相爱(100集),https://vd3.bdstatic.com/mda-pedkenasrhs239n2/sc/cae_h264/1684169079399702313/mda-pedkenasrhs239n2.mp4
 落在生命里的光(100集),https://vd3.bdstatic.com/mda-pedgk34za4i2wsk4/720p/h264/1684066802676530455/mda-pedgk34za4i2wsk4.mp4
