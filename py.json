@@ -2,6 +2,7 @@
     "spider": "",
     "wallpaper": "https://bing.img.run/rand.php",
     "sites": [
+   
         {
             "key": "py_yangshipianku",
             "name": "央视片库",
@@ -63,6 +64,19 @@
             "filterable": 1,
             "playerType": 2
         },
+        
+        {
+            "key": "优酷视频",
+            "name": "py_优酷",
+            "type": 3,
+            "api": "./py/py_优酷.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        
         {
             "key": "HiTV",
             "name": "py_hitv",

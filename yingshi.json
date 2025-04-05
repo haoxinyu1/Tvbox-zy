@@ -1,5 +1,48 @@
 {
     "lives": [
+        
+
+        {
+      "name": "快直播(python)",
+      "type": 3,
+      "api": "./py/kzb.py",
+      "ext": {}
+         },
+    
+       {
+      "name": "快直播体育(python)",
+      "type": 3,
+      "api": "./py/kzbty.py",
+      "ext": {}
+         },
+    
+                 {
+            "name": "webview专源",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/webtv.txt.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
+        {
+            "name": "webview专源1",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/webtv1.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        
+        {
+            "name": "webview专源2",
+            "type": 0,
+            "playerType": 2,
+            "url": "./tv/webtv.txt",
+            "ua": "okhttp/4.1.0",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+    
         {
             "name": "河南IPTV",
             "type": 0,
@@ -305,11 +348,26 @@
             "indexs": 1,
             "ext": "./token/tokenm.json$$$./json/douban.json"
         },
+        
+        
+        
+        {
+            "jar":"./jar/pg.jar",
+            "key":"csp_Market",
+            "name":"🏪应用商店",
+            "type":3,
+            "api":"csp_Market",
+            "searchable":0,
+            "changeable":0,
+            "ext":"./json/market.json"
+        },
+        
         {
             "key": "drpy_js_腾云驾雾",
             "name": "🌿腾讯官源",
             "type": 3,
             "api": "./api/drpy2.min.js",
+            "playUrl": "https://bd.jx.cn/?url=",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -320,7 +378,7 @@
             "key": "drpy_js_优酷1",
             "name": "🐥优酷蛋(官源)",
             "type": 3,
-            "playUrl": "https://www.pouyun.com/?url=",
+            "playUrl": "https://bd.jx.cn/?url=",
             "jar": "./jar/spider.jar",
             "api": "./api/drpy2.min.js",
             "ext": "./JS/youku.js"
@@ -330,7 +388,7 @@
             "name": "🐥奇艺蛋(官源)",
             "type": 3,
             "jar": "./jar/spider.jar",
-            "playUrl": "https://jx.xmflv.com/?url=",
+            "playUrl": "https://bd.jx.cn/?url=",
             "api": "./api/drpy2.min.js",
             "ext": "./JS/奇珍异兽.js"
         },
@@ -338,11 +396,80 @@
             "key": "drpy_js_百忙无果",
             "name": "🍐芒果蛋[官源]",
             "type": 3,
-            "playUrl": "https://jx.xmflv.com/?url=",
+            "playUrl": "https://bd.jx.cn/?url=",
             "jar": "./jar/spider.jar",
             "api": "./api/drpy2.min.js",
             "ext": "./JS/百忙无果.js"
         },
+        
+        {
+            "key": "可可",
+            "name": "👻可可影视",
+            "type": 3,
+            "api": "csp_KekysGuard",
+            "jar": "./jar/spider3.jar",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        
+        {
+            "key": "csp_可可影视",
+            "name": "🔥可可影视_XYQHiker",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/可可影视.json",
+            "jar": "./jar/csp_HK_91短剧.jar"
+        },
+        
+        {
+            "key": "奇优",
+            "name": "✨奇优",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/hm.jar",
+            "ext": "./json/qiyou.json"
+        },
+        
+        {
+            "key": "茶狐杯",
+            "name": "✨茶狐杯",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/hm.jar",
+            "ext": "./json/茶狐杯.json"
+        },
+        
+        {
+            "key": "萌米",
+            "name": "👀萌米",
+            "type": 3,
+            "api": "csp_AppTTGuard",
+            "jar": "./jar/spider3.jar",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8I2bux0Y8Qze6tVlMg=="
+        },
+        
+        {
+            "key": "欢视",
+            "name": "👓欢视",
+            "type": 3,
+            "api": "csp_AppTTGuard",
+            "jar": "./jar/spider3.jar",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
+        },
+        
         {
             "key": "十六万MV听歌📣",
             "name": "🍐十六万MV+春晚",
@@ -391,6 +518,17 @@
             "changeable": 1,
             "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
         },
+        
+        {
+			"key": "巧技",
+			"name": "🚗巧记┃1080P",
+			"type": 3,
+			"api": "csp_qiao2",
+			"playerType": 2,
+			"jar": "./jar/0303.jar;md5;ec975f203099b42d6286751914e27fc9",
+			"ext": "./lib/cksp.txt"
+		},
+        
         {
             "key": "热播",
             "name": "🌼热播┃App",
@@ -710,6 +848,23 @@
                 "ratio": 1.1
             }
         },
+        
+        {
+            "key": "夸搜",
+            "name": "😻夸搜┃夸父",
+            "type": 3,
+            "api": "csp_PanSearchGuard",
+            "jar": "./jar/spider3.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "pan": "quark",
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        
         {
             "key": "我的UC",
             "name": "🔥我的｜UC",
@@ -2397,6 +2552,8 @@
     ],
     "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
     "parses": [
+    
+        
         {
             "name": "MeowTV1",
             "type": 0,
