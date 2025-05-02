@@ -38,7 +38,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/戏曲.json",
-            "jar": "./jar/spider1.jar"
+            "jar": "./jar/spiderdj.jar"
         }
         
     ],
