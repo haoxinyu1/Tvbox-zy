@@ -342,6 +342,16 @@
     "spider": "./jar/FG.jar",
     "logo": "./logo/logo4.gif",
     "sites": [
+
+        {
+            "key": "直播转点播",
+            "name": "🐼️电影自取源",
+            "type": 3,
+            "searchable": 0,
+            "api": "./JS/live2vod.js",
+            "ext": "./tv/feimaolive.json"
+        },
+
         {
             "key": "豆瓣",
             "name": "🌿豆瓣",
@@ -537,14 +547,7 @@
             "api": "./mv/16万hys.js",
             "ext": "./mv/16万mv.js"
         },
-        {
-            "key": "直播转点播",
-            "name": "🐼️电影自取源",
-            "type": 3,
-            "searchable": 0,
-            "api": "./JS/live2vod.js",
-            "ext": "./tv/feimaolive.json"
-        },
+        
         {
             "key": "转点2",
             "name": "🐼️直转点",
